@@ -1,6 +1,6 @@
-# 🎤 VocaNova – The Future of Voice-First Learning
+# 🎤 AuraByte – The Future of Voice-First Learning
 
-**VocaNova** is an intelligent voice-controlled assistant that transforms how you interact with notes and learning material. Built with Streamlit and powered by OpenAI, it listens to your voice commands and responds with powerful features like note summarization, translation, file uploads, quizzes, and more.
+**AuraByte** is an intelligent voice-controlled assistant that transforms how you interact with notes and learning material. Built with Streamlit and powered by OpenAI, it listens to your voice commands and responds with powerful features like note summarization, translation, file uploads, quizzes, and more.
 
 ---
 
@@ -46,5 +46,5 @@
 
 1. **Clone this repo**
    ```bash
-   git clone https://github.com/yourusername/vocanova.git
-   cd vocanova
+   git clone https://github.com/yourusername/AuraByte.git
+   cd AuraByte
