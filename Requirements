@@ -1,0 +1,12 @@
+Requirements
+
+streamlit
+openai
+speechrecognition
+pytesseract
+pyttsx3
+opencv-python
+pillow
+PyMuPDF
+keyboard
+requests
