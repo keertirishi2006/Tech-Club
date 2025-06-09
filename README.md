@@ -1,50 +1,38 @@
-# 🎤 AuraByte – The Future of Voice-First Learning
+# 🎙️ Voice Command AI
 
-**AuraByte** is an intelligent voice-controlled assistant that transforms how you interact with notes and learning material. Built with Streamlit and powered by OpenAI, it listens to your voice commands and responds with powerful features like note summarization, translation, file uploads, quizzes, and more.
+An intelligent voice-controlled assistant app built with Streamlit that can:
 
----
+- 🎧 Start reading aloud uploaded notes (PDF/Image)
+- 🌐 Translate the content into multiple languages
+- 📝 Summarize your notes
+- ❓ Answer contextual questions
+- 🧠 Quiz you based on uploaded content
+- ⏩ Change playback speed (Slow / Medium / Fast)
 
 ## 🚀 Features
+- Voice command recognition using Google Speech API
+- OCR support for handwritten or printed notes using Tesseract
+- PDF text extraction
+- Language translation with DeepL API
+- Text-to-speech with pyttsx3
+- GPT-3.5 based contextual question answering and summarization
+- Interactive Streamlit UI
 
-🎧 **Voice Command Interface**  
-> Control the app hands-free — just say “START”, “UPLOAD”, “TRANSLATE”, and more.
+## 🛠️ Setup Instructions
+1. Clone the repo
+```bash
+git clone https://github.com/yourusername/voice-command-ai.git
+cd voice-command-ai
+```
 
-📄 **Smart Note Reader**  
-> Upload PDFs or images, and let VocaNova read and understand them using OCR and AI.
+2. Install dependencies
+```bash
+pip install -r requirements.txt
+```
 
-🗣️ **Multilingual Translation**  
-> Translate your content into 20+ languages with DeepL API integration.
+3. Add your OpenAI and DeepL API keys in `app.py`
 
-🧠 **AI-Powered Summarization & QnA**  
-> Get concise summaries and ask contextual questions using GPT-3.5-Turbo.
-
-🎯 **Interactive Quizzing**  
-> Generate quiz questions from notes and test your knowledge on the go.
-
-⚡ **Custom Playback Speeds**  
-> Choose from Slow, Medium, or Fast narration speeds.
-
-🎨 **Modern UI**  
-> Beautiful, responsive interface built using Streamlit and custom CSS.
-
----
-
-## 🛠️ Tech Stack
-
-- **Python**
-- **Streamlit**
-- **OpenAI GPT (ChatGPT)**
-- **SpeechRecognition + PyAudio**
-- **DeepL API (Translation)**
-- **Tesseract OCR**
-- **pyttsx3 (Text-to-Speech)**
-- **OpenCV & Pillow (Image Handling)**
-
----
-
-## 📂 How to Run Locally
-
-1. **Clone this repo**
-   ```bash
-   git clone https://github.com/yourusername/AuraByte.git
-   cd AuraByte
+4. Run the app
+```bash
+streamlit run app.py
+```
