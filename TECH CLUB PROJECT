@@ -115,7 +115,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 
-st.header("|    KEERTIRISHI |") 
+st.header("|  AuraByte |") 
 st.divider()
 
 st.markdown('<div class="centered-gif"><img src="https://media1.tenor.com/m/BOu8ryjIR38AAAAd/sound-wave-wave.gif" alt="Soundwave Animation" height=200 width=800></div>', unsafe_allow_html=True)
